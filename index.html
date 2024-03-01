@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Gyananshu - A Scholar Connect</title>
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="nav-list">
+            <div class="logo"><img src="images/logog.jpg" alt="logo">
+            </div>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT US</a></li>
+            <li><a href="login.php">LOGIN</a></li>
+            <li><a href="reg.php">REGISTRATION</a></li>            
+        </ul>
+        <!--se
+        <div class="rightnav">
+            <input type="text" name="search" id="search">
+            <button class="btn btn-sm">Search</button>
+        </div>-->
+        <!--<div class="rightnav">
+            <form action="search.php" method="post">
+                <input type="text" name="faculty_name" placeholder="Faculty Name">
+                <input type="text" name="designation" placeholder="Designation">
+                <input type="text" name="expertise" placeholder="Expertise">
+                <input type="text" name="department" placeholder="Department">
+                <input type="text" name="publication" placeholder="Research Paper/Publication">
+                <input type="text" name="conference" placeholder="Conference">
+                <button type="submit" class="btn btn-sm">Search</button>
+            </form>
+        </div>-->
+        <div class="rightnav">
+            <form action="search.php" method="post">
+                <select name="search_category">
+                    <option value="faculty_name">Faculty Name</option>
+                    <option value="designation">Designation</option>
+                    <option value="expertise">Expertise</option>
+                    <option value="department">Department</option>
+                    <option value="publication">Research Paper/Publication</option>
+                    <option value="conference">Conference</option>
+                </select>
+                <input type="text" name="search_query" placeholder="Search...">
+                
+                <button type="submit" class="btn btn-sm">Search</button>
+            </form>
+        </div>
+    </nav>
+    <section style="background-image: url('images/bg4.png'); background-size: cover; background-position: center; color: white; text-align: center; padding: 100px 20px;">
+        <h1>GYANANSHU: THE SCHOLAR CONNECT</h1>
+        <p>Welcome to Gyananshu, your gateway to the world of academic excellence!<br> Explore the latest research, connect with distinguished faculty,<br> and discover a treasure trove of knowledge at Banasthali Vidyapith's<br> Department of Computer Science and Artificial Intelligence.</p>
+    </section>    
+</body>
+</html>
